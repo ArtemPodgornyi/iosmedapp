@@ -1,0 +1,454 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AC8D6E642B1F8EC70065E933 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8D6E632B1F8EC70065E933 /* ContentView.swift */; };
+		AC8D6E692B1F8EC80065E933 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC8D6E682B1F8EC80065E933 /* Preview Assets.xcassets */; };
+		AC8D6EC42B1F8FA00065E933 /* Poppins-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AC8D6EAC2B1F8FA00065E933 /* Poppins-Medium.ttf */; };
+		AC8D6EC52B1F8FA00065E933 /* Poppins-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AC8D6EAD2B1F8FA00065E933 /* Poppins-Bold.ttf */; };
+		AC8D6EC62B1F8FA00065E933 /* Poppins-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AC8D6EAE2B1F8FA00065E933 /* Poppins-SemiBold.ttf */; };
+		AC8D6EC82B1F8FA00065E933 /* Sizes.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8D6EB12B1F8FA00065E933 /* Sizes.swift */; };
+		AC8D6EC92B1F8FA00065E933 /* Fonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8D6EB22B1F8FA00065E933 /* Fonts.swift */; };
+		AC8D6ECA2B1F8FA00065E933 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8D6EB32B1F8FA00065E933 /* Colors.swift */; };
+		AC8D6ECB2B1F8FA00065E933 /* DoctorCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8D6EB52B1F8FA00065E933 /* DoctorCard.swift */; };
+		AC8D6ECC2B1F8FA00065E933 /* Feature.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8D6EB62B1F8FA00065E933 /* Feature.swift */; };
+		AC8D6ECD2B1F8FA00065E933 /* Navigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8D6EB72B1F8FA00065E933 /* Navigation.swift */; };
+		AC8D6ECE2B1F8FA00065E933 /* NavigationButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8D6EB82B1F8FA00065E933 /* NavigationButton.swift */; };
+		AC8D6ECF2B1F8FA00065E933 /* NearDoctorCardsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8D6EB92B1F8FA00065E933 /* NearDoctorCardsList.swift */; };
+		AC8D6ED02B1F8FA00065E933 /* NearDoctorCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8D6EBA2B1F8FA00065E933 /* NearDoctorCard.swift */; };
+		AC8D6ED12B1F8FA00065E933 /* Header.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8D6EBB2B1F8FA00065E933 /* Header.swift */; };
+		AC8D6ED22B1F8FA00065E933 /* FeaturesList.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8D6EBC2B1F8FA00065E933 /* FeaturesList.swift */; };
+		AC8D6ED32B1F8FA00065E933 /* Search.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8D6EBD2B1F8FA00065E933 /* Search.swift */; };
+		AC8D6ED42B1F8FA00065E933 /* NearDoctorsListScrum.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8D6EBF2B1F8FA00065E933 /* NearDoctorsListScrum.swift */; };
+		AC8D6ED52B1F8FA00065E933 /* NavigationScrum.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8D6EC02B1F8FA00065E933 /* NavigationScrum.swift */; };
+		AC8D6ED62B1F8FA00065E933 /* DoctorScrum.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8D6EC12B1F8FA00065E933 /* DoctorScrum.swift */; };
+		AC8D6ED72B1F8FA00065E933 /* FeaturesScrum.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8D6EC22B1F8FA00065E933 /* FeaturesScrum.swift */; };
+		AC8D6ED82B1F8FA00065E933 /* UserScrum.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8D6EC32B1F8FA00065E933 /* UserScrum.swift */; };
+		AC8D6EDC2B1F900A0065E933 /* MedAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8D6EDB2B1F900A0065E933 /* MedAppApp.swift */; };
+		AC8D6EDE2B1F919F0065E933 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC8D6EDD2B1F919E0065E933 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AC8D6E5E2B1F8EC70065E933 /* MedApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MedApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC8D6E632B1F8EC70065E933 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		AC8D6E682B1F8EC80065E933 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AC8D6EAC2B1F8FA00065E933 /* Poppins-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Medium.ttf"; sourceTree = "<group>"; };
+		AC8D6EAD2B1F8FA00065E933 /* Poppins-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Bold.ttf"; sourceTree = "<group>"; };
+		AC8D6EAE2B1F8FA00065E933 /* Poppins-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-SemiBold.ttf"; sourceTree = "<group>"; };
+		AC8D6EB12B1F8FA00065E933 /* Sizes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Sizes.swift; sourceTree = "<group>"; };
+		AC8D6EB22B1F8FA00065E933 /* Fonts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Fonts.swift; sourceTree = "<group>"; };
+		AC8D6EB32B1F8FA00065E933 /* Colors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		AC8D6EB52B1F8FA00065E933 /* DoctorCard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DoctorCard.swift; sourceTree = "<group>"; };
+		AC8D6EB62B1F8FA00065E933 /* Feature.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Feature.swift; sourceTree = "<group>"; };
+		AC8D6EB72B1F8FA00065E933 /* Navigation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Navigation.swift; sourceTree = "<group>"; };
+		AC8D6EB82B1F8FA00065E933 /* NavigationButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationButton.swift; sourceTree = "<group>"; };
+		AC8D6EB92B1F8FA00065E933 /* NearDoctorCardsList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NearDoctorCardsList.swift; sourceTree = "<group>"; };
+		AC8D6EBA2B1F8FA00065E933 /* NearDoctorCard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NearDoctorCard.swift; sourceTree = "<group>"; };
+		AC8D6EBB2B1F8FA00065E933 /* Header.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Header.swift; sourceTree = "<group>"; };
+		AC8D6EBC2B1F8FA00065E933 /* FeaturesList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeaturesList.swift; sourceTree = "<group>"; };
+		AC8D6EBD2B1F8FA00065E933 /* Search.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Search.swift; sourceTree = "<group>"; };
+		AC8D6EBF2B1F8FA00065E933 /* NearDoctorsListScrum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NearDoctorsListScrum.swift; sourceTree = "<group>"; };
+		AC8D6EC02B1F8FA00065E933 /* NavigationScrum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationScrum.swift; sourceTree = "<group>"; };
+		AC8D6EC12B1F8FA00065E933 /* DoctorScrum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DoctorScrum.swift; sourceTree = "<group>"; };
+		AC8D6EC22B1F8FA00065E933 /* FeaturesScrum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeaturesScrum.swift; sourceTree = "<group>"; };
+		AC8D6EC32B1F8FA00065E933 /* UserScrum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserScrum.swift; sourceTree = "<group>"; };
+		AC8D6EDB2B1F900A0065E933 /* MedAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedAppApp.swift; sourceTree = "<group>"; };
+		AC8D6EDD2B1F919E0065E933 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../../aptechka/lab22/titkov/Assets.xcassets; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AC8D6E5B2B1F8EC70065E933 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AC8D6E552B1F8EC70065E933 = {
+			isa = PBXGroup;
+			children = (
+				AC8D6E602B1F8EC70065E933 /* MedApp */,
+				AC8D6E5F2B1F8EC70065E933 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AC8D6E5F2B1F8EC70065E933 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AC8D6E5E2B1F8EC70065E933 /* MedApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AC8D6E602B1F8EC70065E933 /* MedApp */ = {
+			isa = PBXGroup;
+			children = (
+				AC8D6EAB2B1F8FA00065E933 /* Fonts */,
+				AC8D6EB02B1F8FA00065E933 /* Variables */,
+				AC8D6EBE2B1F8FA00065E933 /* Scrums */,
+				AC8D6EB42B1F8FA00065E933 /* Views */,
+				AC8D6E632B1F8EC70065E933 /* ContentView.swift */,
+				AC8D6EDB2B1F900A0065E933 /* MedAppApp.swift */,
+				AC8D6EDD2B1F919E0065E933 /* Assets.xcassets */,
+				AC8D6E672B1F8EC80065E933 /* Preview Content */,
+			);
+			path = MedApp;
+			sourceTree = "<group>";
+		};
+		AC8D6E672B1F8EC80065E933 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				AC8D6E682B1F8EC80065E933 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		AC8D6EAB2B1F8FA00065E933 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				AC8D6EAC2B1F8FA00065E933 /* Poppins-Medium.ttf */,
+				AC8D6EAD2B1F8FA00065E933 /* Poppins-Bold.ttf */,
+				AC8D6EAE2B1F8FA00065E933 /* Poppins-SemiBold.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		AC8D6EB02B1F8FA00065E933 /* Variables */ = {
+			isa = PBXGroup;
+			children = (
+				AC8D6EB12B1F8FA00065E933 /* Sizes.swift */,
+				AC8D6EB22B1F8FA00065E933 /* Fonts.swift */,
+				AC8D6EB32B1F8FA00065E933 /* Colors.swift */,
+			);
+			path = Variables;
+			sourceTree = "<group>";
+		};
+		AC8D6EB42B1F8FA00065E933 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				AC8D6EB52B1F8FA00065E933 /* DoctorCard.swift */,
+				AC8D6EB62B1F8FA00065E933 /* Feature.swift */,
+				AC8D6EB72B1F8FA00065E933 /* Navigation.swift */,
+				AC8D6EB82B1F8FA00065E933 /* NavigationButton.swift */,
+				AC8D6EB92B1F8FA00065E933 /* NearDoctorCardsList.swift */,
+				AC8D6EBA2B1F8FA00065E933 /* NearDoctorCard.swift */,
+				AC8D6EBB2B1F8FA00065E933 /* Header.swift */,
+				AC8D6EBC2B1F8FA00065E933 /* FeaturesList.swift */,
+				AC8D6EBD2B1F8FA00065E933 /* Search.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		AC8D6EBE2B1F8FA00065E933 /* Scrums */ = {
+			isa = PBXGroup;
+			children = (
+				AC8D6EBF2B1F8FA00065E933 /* NearDoctorsListScrum.swift */,
+				AC8D6EC02B1F8FA00065E933 /* NavigationScrum.swift */,
+				AC8D6EC12B1F8FA00065E933 /* DoctorScrum.swift */,
+				AC8D6EC22B1F8FA00065E933 /* FeaturesScrum.swift */,
+				AC8D6EC32B1F8FA00065E933 /* UserScrum.swift */,
+			);
+			path = Scrums;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AC8D6E5D2B1F8EC70065E933 /* MedApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC8D6E6C2B1F8EC80065E933 /* Build configuration list for PBXNativeTarget "MedApp" */;
+			buildPhases = (
+				AC8D6E5A2B1F8EC70065E933 /* Sources */,
+				AC8D6E5B2B1F8EC70065E933 /* Frameworks */,
+				AC8D6E5C2B1F8EC70065E933 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MedApp;
+			productName = MedApp;
+			productReference = AC8D6E5E2B1F8EC70065E933 /* MedApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AC8D6E562B1F8EC70065E933 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					AC8D6E5D2B1F8EC70065E933 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+				};
+			};
+			buildConfigurationList = AC8D6E592B1F8EC70065E933 /* Build configuration list for PBXProject "MedApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AC8D6E552B1F8EC70065E933;
+			productRefGroup = AC8D6E5F2B1F8EC70065E933 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AC8D6E5D2B1F8EC70065E933 /* MedApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AC8D6E5C2B1F8EC70065E933 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC8D6EC62B1F8FA00065E933 /* Poppins-SemiBold.ttf in Resources */,
+				AC8D6EC42B1F8FA00065E933 /* Poppins-Medium.ttf in Resources */,
+				AC8D6E692B1F8EC80065E933 /* Preview Assets.xcassets in Resources */,
+				AC8D6EDE2B1F919F0065E933 /* Assets.xcassets in Resources */,
+				AC8D6EC52B1F8FA00065E933 /* Poppins-Bold.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AC8D6E5A2B1F8EC70065E933 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC8D6EC82B1F8FA00065E933 /* Sizes.swift in Sources */,
+				AC8D6ED12B1F8FA00065E933 /* Header.swift in Sources */,
+				AC8D6ECA2B1F8FA00065E933 /* Colors.swift in Sources */,
+				AC8D6ECB2B1F8FA00065E933 /* DoctorCard.swift in Sources */,
+				AC8D6ECE2B1F8FA00065E933 /* NavigationButton.swift in Sources */,
+				AC8D6EC92B1F8FA00065E933 /* Fonts.swift in Sources */,
+				AC8D6ED52B1F8FA00065E933 /* NavigationScrum.swift in Sources */,
+				AC8D6ED82B1F8FA00065E933 /* UserScrum.swift in Sources */,
+				AC8D6ED22B1F8FA00065E933 /* FeaturesList.swift in Sources */,
+				AC8D6ECC2B1F8FA00065E933 /* Feature.swift in Sources */,
+				AC8D6ED02B1F8FA00065E933 /* NearDoctorCard.swift in Sources */,
+				AC8D6ECF2B1F8FA00065E933 /* NearDoctorCardsList.swift in Sources */,
+				AC8D6ECD2B1F8FA00065E933 /* Navigation.swift in Sources */,
+				AC8D6ED72B1F8FA00065E933 /* FeaturesScrum.swift in Sources */,
+				AC8D6ED32B1F8FA00065E933 /* Search.swift in Sources */,
+				AC8D6E642B1F8EC70065E933 /* ContentView.swift in Sources */,
+				AC8D6ED62B1F8FA00065E933 /* DoctorScrum.swift in Sources */,
+				AC8D6EDC2B1F900A0065E933 /* MedAppApp.swift in Sources */,
+				AC8D6ED42B1F8FA00065E933 /* NearDoctorsListScrum.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		AC8D6E6A2B1F8EC80065E933 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AC8D6E6B2B1F8EC80065E933 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AC8D6E6D2B1F8EC80065E933 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MedApp/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.MedApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AC8D6E6E2B1F8EC80065E933 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MedApp/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.MedApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AC8D6E592B1F8EC70065E933 /* Build configuration list for PBXProject "MedApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC8D6E6A2B1F8EC80065E933 /* Debug */,
+				AC8D6E6B2B1F8EC80065E933 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC8D6E6C2B1F8EC80065E933 /* Build configuration list for PBXNativeTarget "MedApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC8D6E6D2B1F8EC80065E933 /* Debug */,
+				AC8D6E6E2B1F8EC80065E933 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AC8D6E562B1F8EC70065E933 /* Project object */;
+}
